@@ -22,8 +22,8 @@ import time
 
 # Below, you can see the "dirty" version - NOT RECOMMENDED!
 
-# sys.path.append("/home/YOUR_NAME/path/to/Leap_Developer/LeapSDK/lib")
-# sys.path.append("/home/YOUR_NAME/path/to/Leap_Developer/Leap_Developer/LeapSDK/lib/x64")
+sys.path.append("/home/YOUR_NAME/path/to/Leap_Developer/LeapSDK/lib")
+sys.path.append("/home/YOUR_NAME/path/to/Leap_Developer/Leap_Developer/LeapSDK/lib/x64")
 import threading
 import Leap
 from Leap import CircleGesture, KeyTapGesture, ScreenTapGesture, SwipeGesture
